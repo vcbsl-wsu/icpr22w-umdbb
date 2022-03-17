@@ -3,29 +3,28 @@
 
 <head>
     <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/icon.jpg"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
-    </script>
+    <script src="assets/MathJax/MathJax.js?config=default"></script>
     <meta name="description" content="Conference Template">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>Program | Conference Template</title>
+    <meta name="KeyWords" content="Falco J. Bargagli Stoffi">
+    <title>Program - Conference organised by Falco J. Bargagli Stoffi</title>
 </head>
 
 <body>
 
-    <div class="banner">
-        <img src="assets/banner.jpg" alt="Conference Template Banner">
+       <div class="banner">
+        <img src="assets/imt-school-for-advanced-studies.jpg" alt="Conference Template Banner" style="width: 99%">
         <div class="top-left">
-            <span class="title1">Conference</span><span class="title2">Template</span> <span class="year">2525</span>
+            <span class="title1">Data Science Webinar</span>
         </div>
         <div class="bottom-right">
-            June 31, 2525 <br> University Name, and City Maybe
+            July 8th, 2020 <br> IMT School and KU Leuven
         </div>
     </div>
+
 
     <table class="navigation">
         <tr>
@@ -39,29 +38,54 @@
                 <a class="current" title="Conference Program" href="program">Program</a> 
             </td>
             <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
+                <a title="How to Connect" href="directions">How to Connect</a>
             </td>
+            <!-- Uncomment for adding this section in the website
             <td class="navigation">
                 <a title="Conference Flyer" href="flyer">Flyer</a>
-            </td>
+            </td> -->
         </tr>
     </table>
 
-    <h2>Conference Program</h2>
+
+    <br>
 
     <table>
         <tr>
             <td class="date" rowspan="2">
-                8:30am
+                10:20am
             </td>
             <td class="title-special">
-                Registration and Coffee &amp; Tea!
+                Welcome and Introduction
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Here&rsquo;s a section in the program that isn&rsquo;t a talk. 
-                Notice that the title is styled differently than the ones for talks.
+                <i> Institutional welcome from IMT School for Advanced Studies Lucca Director Prof. <i> <a target="_blank" href="https://www.imtlucca.it/pietro.pietrini">Pietro Pietrini</a> </i> </i>
+                <!-- Director Prof. <i> <a target="_blank" href="https://www.imtlucca.it/pietro.pietrini">Pietro Pietrini</a> </i> -->
+            </td>
+        </tr>
+    </table>
+    
+    <h2>Methods Session (Chair Prof. K. De Witte, KU Leuven)</h2>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                10:30am
+            </td>
+            <td class="title">
+                Selecting Subpopulations for Causal Inference in Regression-Discontinuity Studies
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Prof. <a target="_blank" href="https://local.disia.unifi.it/mealli/">Fabrizia Mealli</a> (University of Florence and Florence Center for Data Science), <a target="_blank" href="https://drive.google.com/file/d/1Y_OkZDAWp-U_XpDe5N-gwgAllOzeVgTS/view?usp=sharing">[Slides]</a>
+            </td>
+        <tr>
+            <td class="abstract">
+                <p style="text-align: justify;">
+                Extracting causal information from regression-discontinuity (RD) studies, where the treatment assignment rule depends on some type of cutoff formula, may be challenging, especially in the presence of big data. Following Li, Mattei and Mealli (2015), we formally describe RD designs as local randomized experiments within the potential outcome approach. Under this framework causal inference concerns units belonging to some subpopulation where a local overlap assumption, SUTVA and a local randomization assumption (RD assumptions) hold. Unfortunately we do not usually know the subpopulations for which we can draw valid causal inference. We propose to use a model-based finite mixture approach to clustering in a Bayesian framework to classify observations into subpopulations for which we can draw valid causal inference and subpopulations from which we can extract no causal information on the basis of the observed data and the RD assumptions. This approach has important advantages: It explicitly accounts for the uncertainty about sub-population membership; it does not impose any constraint on the shape of the subpopulation; and it properly works in high-dimensional settings. We illustrate the framework in a high-dimensional RD study concerning the effects of the Borsa Famı́lia program, a social welfare program of the Brazilian government, on leprosy incidence.
             </td>
         </tr>
     </table>
@@ -69,94 +93,34 @@
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                9:00am
+                11:30am
             </td>
             <td class="title">
-                Interesting Title of a Talk 
+                Recurrent Individual Treatment Assignment: A Treatment Policy Approach to Account for Heterogeneous Treatment Effects
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Speaker Name (University)
+                Prof. <a target="_blank" href="https://sites.google.com/site/chrispbjvanklaveren/">Chris Van Klaveren</a> (Vrije Universiteit Amsterdam), <a target="_blank" href="https://drive.google.com/file/d/1tZ7rUlkHZ8LWERfv20nTWNVV2jhN6EsM/view?usp=sharing">[Slides]</a>
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                <p style="text-align: justify;">
+                Longitudinal clinical trials generally assign individuals randomly to treatments at baseline and then evaluate how differential average treatment effects evolve over time. This study argues that longitudinal settings could benefit from focusing on Recurrent Individual Treatment Assignment (RITA) instead, particularly in the face of such (dynamic) heterogeneous treatment effects. Such a focus on optimizing treatment assignment, rather than treatment effects, ensures that unobserved heterogeneous treatment effects can be acknowledged. Overall treatment response will then be improved, when compared to treatment policies in longitudinal settings based on clinical-trial derived average treatment effects. This study develops a RITA-algorithm and evaluates its performance in a multiperiod simulation setting, considering two alternative treatments and varying the extent of unobserved heterogeneity in individual treatment response. The results show that RITA can learn quickly, and adapts individual assignments effectively. If treatment heterogeneity exists, the inherent focus on both exploit and explore enable RITA to outperform a conventional assignment strategy that relies on clinical-trial derived average treatment effects.
             </td>
         </tr>
     </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                9:25am
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                9:50am
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                10:15am
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
+  
 
     <table>
         <tr>
             <td class="date" rowspan="2">
-                10:40am
+                12.30am
             </td>
             <td class="title-special">
-                Coffee &amp; Tea Break
+                Lunch Break
             </td>
         </tr>
         <tr>
@@ -165,25 +129,49 @@
             </td>
         </tr>
     </table>
+    
+    <h2>Empirical Applications' Session (Chair Prof. M. Smet, KU Leuven)</h2>
 
-    <table class="plenary">
+    <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                11:00am
+                2:30pm
             </td>
             <td class="title">
-                This is a Plenary Talk!
+                Machine Learning for Zombie Hunting. Firms' Failures and Financial Constraints.
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Plenary Speaker
+                Prof. <a target="_blank" href="http://www.imtlucca.it/massimo.riccaboni">Massimo Riccaboni</a> (IMT School for Advanced Studies Lucca), <a target="_blank" href="https://drive.google.com/file/d/1mrM-1OPVuMGo9-pjyJ_GPsD8GG_YLGN0/view?usp=sharing">[Slides]</a>
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Here&rsquo;s the abstract for the plenary talk! Notice again that the formatting of this time-block is a bit different that the rest of of the talks.
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+             <p style="text-align: justify;">
+             In this contribution, we exploit machine learning techniques to predict the risk of failure of firms. Then, we propose an empirical definition of zombies as firms that persist in a status of high risk, beyond the highest decile, after which we observe that the chances to transit to lower risk are minimal. We implement a Bayesian Additive Regression Tree with Missing Incorporated in Attributes (BART-MIA), which is specifically useful in our setting as we provide evidence that patterns of undisclosed accounts correlate with firms' failures. After training our algorithm on 304,906 firms in Italy in the period 2008-2017, we show how it outperforms proxy models like the Z-scores and the Distance-to-Default, traditional econometric methods, and other widely used machine learning techniques. We document that zombies are on average 21% less productive, 76% smaller, and they increased in times of financial crisis. In general, we argue that our application helps in the design of evidence-based policies in the presence of market failures, for example optimal bankruptcy laws. We believe our framework can help to inform the design of support programs for highly distressed firms after the recent pandemic crisis.  
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                3:30pm
+            </td>
+            <td class="title">
+                Refining Pre-disaster Strategic Preparedness: a Causal Machine Learning Model for Identification of Communities facing the Highest Health Risks from an Impending Tropical Cyclone
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Prof. <a target="_blank" href="https://scholar.harvard.edu/rnethery/home">Rachel C. Nethery</a> (Harvard University), <a target="_blank" href="https://drive.google.com/file/d/1u6AWXTVOU9oDZ10pMH-KXfVc9jVZVFSU/view?usp=sharing">[Slides]</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+           Climate change is expected to increase the intensity of tropical cyclones (TC), thus they represent an escalating threat to human health over this century. The risks are exacerbated by our current incomplete understanding of the full spectrum of TC health impacts. The goal of our work is to create a predictive tool that provides information in real-time about the areas of highest health risk and the types of health risks anticipated for an impending TC threatening the United States, in order to maximize the protective impact of strategic preparedness efforts. Motivated by our enormous database of historic TC exposures and Medicare health records, we build a causal machine learning model that simultaneously (1) estimates county-specific causal effects of past TC on numerous health outcomes and (2) uses these effect estimates to construct a predictive model that captures relationships between county and TC features and health impacts. This model enables prediction of county-specific health effects of an impending TC, accompanied by measures of predictive uncertainty, which can inform on-the-ground preparedness and response.
             </td>
         </tr>
     </table>
@@ -191,10 +179,10 @@
     <table>
         <tr>
             <td class="date" rowspan="2">
-                Noon
+                4:30pm
             </td>
             <td class="title-special">
-                Lunch
+                Virtual Coffee &amp; Tea Break
             </td>
         </tr>
         <tr>
@@ -203,133 +191,45 @@
             </td>
         </tr>
     </table>
+    
+    <!-- <h2>Dissertation Defence (Chair Prof. M. Riccaboni)</h2> -->
+    <h2>Doctoral Defense Session (Chair Prof. M. Riccaboni)</h2>
 
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                1:30pm
+                5:00pm
             </td>
             <td class="title">
-                Interesting Title of a Talk 
+               Machine Learning in Social and Health Sciences
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Speaker Name (University)
+                <a target="_blank" href="https://www.falcobargaglistoffi.com">Falco J. Bargagli Stoffi</a>  (IMT School for Advanced Studies Lucca and KU Leuven), <a target="_blank" href="https://drive.google.com/file/d/1jIBnjA6e8EwteKpFCMt1C17c4tQQJH6r/view?usp=sharing">[Slides]</a>
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+             <p style="text-align: justify;">
+            In this Dissertation, we deal with a series of applications of machine learning in the fields of social and health science. In particular, we introduce a set of novelties in the traditional usage of machine learning algorithms for predictive and causal inference tasks. In Part 1, we explore the field of machine learning for causal inference and we introduce two innovative techniques that combine state-of-the-art machine learning algorithms with causal inference methodologies. In the first Chapter, we introduce a novel Bayesian tree-based methodology to draw causal inference on heterogeneous effects in quasi-experimental scenarios. 
+             In the second Chapter, we account for possible drawbacks of tree-based methodologies by proposing a composite algorithm with a high level of interpretability and precision. 
+            In Part 2, we introduce applications of machine learning predictive power to forecast students' financial literacy scores and firm's financial distress. In the third Chapter, we innovate the applied machine learning literature by proposing a novel sensitivity analysis for predictions. Finally, in the fourth Chapter, we show how economic intuition can boost the performance of machine learning algorithms.
+            The Dissertation contributes to the literatures on causal and predictive machine learning mainly by: (i) extending the current framework to novel scenarios and applications (Chapter 1 - Chapter 3); (ii) introducing interpretability in the learning models (Chapter 2 - Chapter 4); (iii) developing a novel methodology to assess the robustness of predictions (Chapter 3); (iv) informing the choice of the technique used by specific economic knowledge on the field of investigation (Chapter 4). 
             </td>
         </tr>
     </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
+  
+
+    <table class="footer">
         <tr>
-            <td class="date" rowspan="3">
-                1:55pm
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
+            <td class="footer">Design by <a target="_blank" href="http://www.falcobargaglistoffi.com">FJBS</a></td> 
+            <td class="footer">&copy; Falco J. Bargagli Stoffi</td> 
         </tr>
     </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                2:50pm
-            </td>
-            <td class="title-special">
-                Coffee &amp; Tea Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                3:10pm
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                3:35pm
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <table class="plenary">
-        <tr>
-            <td class="date" rowspan="3">
-                4:00pm
-            </td>
-            <td class="title">
-                This is Another Plenary Talk!
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Plenary Speaker
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <footer>
-        &copy; Conference Organizers
-        &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
-    </footer>
 
 </body>
+
 </html>
 
